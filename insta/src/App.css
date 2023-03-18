@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 100vh;
+  width: 15rem;
+  border-right: 0.5px solid #d3d3d3;
+}
+
+.navbar img {
+  height: 3rem;
+  width: 8rem;
+  margin-top: -5rem;
+  margin-left: 1rem;
+}
+
+.navbar .iconslist {
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.dropdown {
+  display: flex;
+  margin-left: 1.4rem;
+  margin-top: 1.4rem;
+  cursor: pointer;
+}
+
+.dropdown p {
+  font-size: 1.1rem;
+  margin-left: 0.7rem;
+}
+
+.list {
+  border: 0.5px solid #d3d3d3;
+  width: 10rem;
+  margin-left: 3.5rem;
+  margin-top: 0.5rem;
+}
+
+.list li {
+  margin-bottom: 1rem;
+  margin-left: 0.4rem;
+}
+
+.loginbox {
+  border: 2px solid #d3d3d3;
+  margin-left: 12rem;
+  width: 20rem;
+  height: 23rem;
+  padding-top: 2rem;
+}
+
+.loginbox img {
+  height: 5rem;
+  width: 10rem;
+  margin-left: 4.6rem;
+  margin-top: 1rem;
+}
+
+.loginbox .input {
+  border: 1px solid #d3d3d3;
+  outline: none;
+  background-color: #faf8f8;
+  height: 2rem;
+  width: 16rem;
+  margin-bottom: 0.9rem;
+  margin-left: 1.7rem;
+  padding-left: 0.4rem;
+}
+
+.loginbox .submit {
+  background-color: rgb(111, 158, 233);
+  color: white;
+  border: 0px;
+  outline: none;
+  height: 2rem;
+  width: 16.6rem;
+  margin-left: 1.7rem;
+  padding-left: 0.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.downsign {
+  border: 2px solid #d3d3d3;
+  margin-left: -2px;
+  width: 20rem;
+  height: 4rem;
+  margin-top: 9rem;
+}
+
+.downsign p {
+  margin-left: 2.5rem;
+  margin-top: 1.1rem;
+}
+
+.signbox {
+  border: 2px solid #d3d3d3;
+  position: absolute;
+  top: 1rem;
+  left: 36rem;
+  width: 21rem;
+  height: 32rem;
+}
+
+.signbox .logo {
+  height: 4rem;
+  width: 11rem;
+  margin-left: 4.7rem;
+  margin-top: 1rem;
+}
+
+.signbox .p {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #969696;
+  margin-left: 2.1rem;
+}
+
+.signbox .p2 {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #969696;
+  margin-left: 6.1rem;
+}
+
+.signbox .avatar {
+  margin-left: 7.6rem;
+  margin-top: 1rem;
+}
+
+.signup .input {
+  border: 1px solid #d3d3d3;
+  outline: none;
+  background-color: #faf8f8;
+  height: 2rem;
+  width: 16rem;
+  margin-bottom: 0.9rem;
+  margin-left: 2.1rem;
+  padding-left: 0.4rem;
+}
+
+.inputbox {
+  margin-top: 1rem;
+}
+
+.inputbox .submit {
+  background-color: rgb(53, 120, 229);
+  color: white;
+  border: 0px;
+  outline: none;
+  height: 2rem;
+  width: 16.6rem;
+  margin-left: 2.1rem;
+  padding-left: 0.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.downsignup {
+  border: 2px solid #d3d3d3;
+  margin-left: -2px;
+  width: 21rem;
+  height: 4rem;
+  margin-top: 2rem;
+  margin-left: -2px;
+}
+
+.downsignup p {
+  margin-left: 4.5rem;
+  margin-top: 1.1rem;
+}
+
+.otp h1 {
+  margin-left: 15rem;
+}
+
+.otp input {
+  border: 1px solid #d3d3d3;
+  outline: none;
+  background-color: #faf8f8;
+  height: 2rem;
+  width: 16rem;
+  margin-bottom: 0.9rem;
+  margin-left: 15.9rem;
+  padding-left: 0.4rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.otp .submit {
+  background-color: rgb(53, 120, 229);
+  color: white;
+  border: 0px;
+  outline: none;
+  height: 2rem;
+  width: 16.6rem;
+  margin-left: 16rem;
+  padding-left: 0.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.post {
+  border: 1px solid black;
+}
+
+.textarea {
+  border: 0;
+  outline: none;
+}
+
+.line {
+  height: 0.2rem;
+  width: 26.8rem;
+  background-color: black;
+  position: absolute;
+  top: 25rem;
+  left: 24rem;
+}
+
+.submitpic {
+  background-color: rgb(53, 120, 229);
+  color: white;
+  border: 0px;
+  outline: none;
+  height: 2rem;
+  width: 16.6rem;
+  margin-left: 29rem;
+  padding-left: 0.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 2rem;
+  position: absolute;
+  top: 26rem;
+}
+
+.card {
+  border: 2px solid #d3d3d3;
+  /* height: 37rem; */
+  width: 28rem;
+  margin-left: 31rem;
+  margin-top: -38rem;
+  margin-bottom: 40rem;
+}
+
+.card .img {
+  border-radius: 4rem;
+}
+
+.card .input {
+  width: 19rem;
+  outline: none;
+  height: 2rem;
+}
+
+.card .submit {
+  width: 8.7rem;
+  background-color: rgb(53, 120, 229);
+  color: white;
+  outline: none;
+  border: 0;
+  height: 2rem;
+}
+
+.addpost {
+  background-color: rgb(53, 120, 229);
+  color: white;
+  border: 0px;
+  outline: none;
+  height: 2rem;
+  width: 14rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  cursor: pointer;
+}
+
+.edit {
+  /* position: absolute; */
+  top: 1rem;
+  left: 22rem;
+  height: 36rem;
+  width: 48rem;
+  border: 1px solid black;
+}
+.edit .input{
+  border: 1px solid #d3d3d3;
+  outline: none;
+  background-color: #faf8f8;
+  height: 2rem;
+  width: 16rem;
+  margin-bottom: 0.9rem;
+  margin-left: 16.4rem;
+  padding-left: 0.4rem;
+  margin-top: 1rem;
+}
